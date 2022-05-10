@@ -1,5 +1,7 @@
 import * as tf from "@tensorflow/tfjs";
 
+document.querySelector(".inputs");
+
 tf.ready().then(() => {
   const modelPath = "./simple-ttt-model/model/ttt_model.json";
   tf.tidy(() => {
