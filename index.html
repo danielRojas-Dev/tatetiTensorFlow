@@ -5,11 +5,46 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <h1>Console Log for Ticky Tacky Toe Goodness</h1>
 
-    <img src="ttt_states.jpg" width="100%" />
+    <header>
+      <h1>Ta Te Ti</h1>
+    </header>
+
+    <section id="ficha">
+      <h3>Elige ficha:</h3>
+      <a id="equis">X</a><a id="circulo">O</a>
+    </section>
+
+    <section id="jugadores">
+      <div id="comp"></div>
+      <div id="hum"></div>
+    </section>
+
+    <section id="turno"></section>
+
+    <section id="tablero">
+      <a class="celda" id="ceroCero"></a>
+      <div class="celda" id="ceroUno"></div>
+      <div class="celda" id="ceroDos"></div>
+      <div class="celda" id="unoCero"></div>
+      <div class="celda" id="unoUno"></div>
+      <div class="celda" id="unoDos"></div>
+      <div class="celda" id="dosCero"></div>
+      <div class="celda" id="dosUno"></div>
+      <div class="celda" id="dosDos"></div>
+    </section>
+
+    <section class="marcador">
+      <section id="ganadosH"></section>
+      <section id="ganadosC"></section>
+      <section id="empate"></section>
+    </section>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
